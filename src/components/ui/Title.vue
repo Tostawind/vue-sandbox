@@ -10,5 +10,6 @@
 <style>
 .title--1 {
     border-bottom: 1px solid #22222240;
+    margin-bottom: 20px;
 }
 </style>

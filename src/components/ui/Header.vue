@@ -1,6 +1,8 @@
 <template>
     <header class="header">
-        <h1>VUEJS</h1>
+        <RouterLink to="/">
+            <h1 style="color: white">VUEJS</h1>
+        </RouterLink>
     </header>
 </template>
 
