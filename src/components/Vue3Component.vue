@@ -1,26 +1,19 @@
+<script setup>
+import Title from './Title.vue';
+const userName = "Pepito"
+
+</script>
+
 <!----------------------------------------------------------------->
 <template>
     <div>
-        <Title text="Vue 2 Component"></Title>
+        <Title text="Vue 3 Component"></Title>
         <span>Hello {{ userName }}</span>
     </div>
 </template>
 
 <!----------------------------------------------------------------->
-<script>
-import Title from './Title.vue';
-export default {
-    // DATA: propiedades del componente por defecto
-    data() {
-        return {
-            userName: "Pepito",
-        };
-    },
-    components: {
-        Title
-    }
-};
-</script>
+
 
 <!----------------------------------------------------------------->
 <style scoped>
