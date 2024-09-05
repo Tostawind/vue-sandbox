@@ -1,5 +1,5 @@
 <script setup>
-import Title from './Title.vue';
+import Title from './ui/Title.vue';
 const userName = "Pepito"
 
 </script>
