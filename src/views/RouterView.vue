@@ -1,6 +1,6 @@
 <template>
     <div class="view-container">
-        <h1>ROUTER 🔀</h1>
+        <Title text="ROUTER 🔀" />
         <p>
             PENDIENTE: $router $routes
         </p>
@@ -8,7 +8,7 @@
 </template>
 
 <script setup>
-
+import Title from '../components/ui/Title.vue';
 </script>
 
 <style>
