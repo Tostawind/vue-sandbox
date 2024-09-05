@@ -1,22 +1,19 @@
 <script setup>
 import Vue2Component from './components/Vue2Component.vue'
 import Vue3Component from './components/Vue3Component.vue'
+import Header from './components/ui/Header.vue'
 </script>
 
 <template>
-  <main>
-    <h1>VUE</h1>
-    
-    <hr>
-
-    <Vue2Component />
-
-    <hr>
-
-    <Vue3Component />
+  <Header></Header>
+  <main class="main">
+    <RouterView />
   </main>
 </template>
 
 <style scoped>
-
+  .main {
+    height: calc(100vh - var(--header-height));
+    padding: 40px;
+  }
 </style>

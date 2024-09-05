@@ -8,7 +8,7 @@
 
 <!----------------------------------------------------------------->
 <script>
-import Title from './.ui/Title.vue';
+import Title from './ui/Title.vue';
 export default {
     // DATA: propiedades del componente por defecto
     data() {
