@@ -27,7 +27,7 @@
 </template>
 
 <script setup>
-import Title from '../components/ui/Title.vue';
+import Title from '../components/widgets/Title.vue';
 
 </script>
 <style>

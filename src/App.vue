@@ -1,7 +1,7 @@
 <script setup>
 import Vue2Component from './components/Vue2Component.vue'
 import Vue3Component from './components/Vue3Component.vue'
-import Header from './components/ui/Header.vue'
+import Header from './components/widgets/Header.vue'
 </script>
 
 <template>
