@@ -10,6 +10,7 @@
             <li><RouterLink to="/router">Router 🔀</RouterLink></li>
             <li><RouterLink to="/directives">Directivas 🪄</RouterLink></li>
             <li><RouterLink to="/fetching">Fetching 🛄</RouterLink></li>
+            <li><RouterLink to="/state">Estado 💱</RouterLink></li>
             <li><RouterLink to="/tests">Tests 🧪</RouterLink></li>
         </ul>
 

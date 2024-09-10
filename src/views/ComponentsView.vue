@@ -16,7 +16,7 @@ const onNewMessage = (event) => {
     <div>
         <Title text="Componentes ⚛️"></Title>
         <Vue2Component :title="vue2Title" age="30" @message="onNewMessage($event)"/>
-        <Vue3Component />
+        <Vue3Component title="Vue 3 Component" @message="onNewMessage($event)"/>
 
         <hr/>
         <p>Mensaje del hijo: {{ childMessage }}</p>
